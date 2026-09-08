@@ -1,5 +1,30 @@
-.env
 *.log
 *.bak
 indicaciones.info
 /img
+
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Archivos de entorno y secretos (¡Crucial para que no subas tus contraseñas o API keys!)
+.env
+.env.local
+.env.*.local
+
+# Directorios de compilación / salida (Builds)
+dist/
+build/
+out/
+.next/
+
+# Cobertura de pruebas
+coverage/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de editores (opcional)
+.vscode/
+.idea/
